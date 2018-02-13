@@ -1,0 +1,29 @@
+{
+  "db": {
+    "host": "localhost",
+    "database": "repay",
+    "username": "root",
+    "password": "",
+    "new_name":"demo"
+  },
+  "tables": {
+    "users": [
+      "first_name",
+      "last_name",
+      "email"
+    ],
+    "customers": [
+      "first_name",
+      "last_name",
+      "email",
+      "phone",
+      "address",
+      "suite",
+      "postal_code"
+    ]
+  },
+  "exclude_chars": [
+    ".",
+    "@"
+  ]
+}
